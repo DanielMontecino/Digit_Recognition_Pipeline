@@ -33,9 +33,9 @@ git commit -m "Add raw data"
 
 Then, if the local repository is not the final storage of the dataset, the dataset can be uploaded and linked to the project by:
 
-'''
+```
 dvc remote add -d storage REMOTE_ADRESS
-'''
+```
 REMOTE_ADRESS is where the dataset will be stored. 
 
 As this action will change a dvc file in the git project, this file should be added and commited in git:
